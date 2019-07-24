@@ -1,0 +1,13 @@
+/apex/APXTConga4__Conga_Composer?SolMgr=1 
+&serverUrl={!API.Partner_Server_URL_370} 
+&Id={!Agreement__c.Id} 
+
+&DS7=3 
+&ZipPDFs=1 
+&DefaultPDF=1 
+&QVar0ID=a100j000004VyS4AAK **Add your attachments Conga Query ID here**
+&QMode=SendEmail 
+&CongaEmailTemplateId=a0z0j000000ZNizAAG **Grouping attachments only works with the Conga Email Template Parameter, not Classic email templates**
+&EmailToId={!Contact_ID__c} **Can can be any contact record, can also be replace with EmailAdditionalTo if using an email field**
+&EmailFromId=0D20j00000000mU **This is the URL from your Organization Wide Email Address entry**
+&TemplateID={QVar0}
