@@ -1,0 +1,13 @@
+/apex/APXTConga4__Conga_Composer?SolMgr=1 
+&serverUrl={!API.Partner_Server_URL_370} 
+&Id={!CampaignMember.Id}
+&QueryId=[CD]a150p0000006LiYAAU?pv1={!CampaignMember.CampaignId} /*replace with your query ID*/
+&DS7=3
+&DefaultPDF=1 
+&OFN=Certificate+of+Attendance
+&TemplateId=a1D0p000000A8sCEAS /*replace with your template ID*/
+&EmailTemplateId=00X0p000000MT32 /*replace with your email template ID, or replace with the CongaEmailTemplateId to use Conga Email Templates*/
+&EmailToId={!CampaignMember.ContactId}
+&EmailRelatedToId={!CampaignMember.Id}
+&EmailSubject=Your+Certificate+of+Attendance
+&EmailFromID=0D20o0000004G0e /*Can be removed if using default workflow user, or can be replaced with hard coded or org wide email addresses*/
