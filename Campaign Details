@@ -1,0 +1,1 @@
+SELECT StartDate, EndDate, Name, Description, Status, Type FROM Campaign WHERE Id = '{pv1}'
