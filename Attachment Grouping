@@ -1,0 +1,1 @@
+SELECT Id FROM Attachment WHERE ParentId = '{pv0}' Name LIKE '%pdf%'
