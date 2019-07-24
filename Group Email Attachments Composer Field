@@ -1,0 +1,9 @@
+"&id="+Id+ 
+"&ZipPDFs=1"+
+"&DefaultPDF=1"+
+"&QVar0ID=a100j000004VyS4AAK"+ 
+"&QMode=SendEmail"+ 
+"&CongaEmailTemplateId=a0z0j000000ZNizAAG"+ 
+"&EmailToId="+Related_Contact__r.Id+ 
+"&EmailFromId=0D20j00000000mU"+ 
+"&TemplateId={QVar0}"
